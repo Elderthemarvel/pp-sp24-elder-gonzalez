@@ -9,4 +9,19 @@ class Home extends BaseController
         return view('home');
     }
 
+    public function framework(): string
+    {
+        return view('framework');
+    }
+
+    public function aplicaciones(): string
+    {
+        return view('aplicaciones');
+    }
+
+    public function creditos(): string
+    {
+        return view('creditos');
+    }
+
 }
